@@ -1,4 +1,4 @@
-public class Main {
+public class MainPayment {
 
     public static void main(String[] args) throws Exception {
         CreditCard creditCard = new CreditCard();
