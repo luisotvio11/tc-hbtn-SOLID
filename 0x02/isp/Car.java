@@ -1,9 +1,5 @@
-public class Car implements IVehicle,IMotorVehicle, IVehicleCar{
+public class Car implements IVehicle, IVehicleCar,IMotorVehicle{
 
-    @Override
-    public void kmPerLitre() {
-
-    }
 
     @Override
     public void startVehicle() {
@@ -11,7 +7,14 @@ public class Car implements IVehicle,IMotorVehicle, IVehicleCar{
     }
 
     @Override
+    public void kmPerLitre() {
+
+    }
+
+    @Override
     public void configureCar(String color, String year, double engine, int seats) {
 
     }
+
+
 }

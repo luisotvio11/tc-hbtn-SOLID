@@ -1,6 +1,12 @@
 public class Motorcycle implements IVehicle, IVehicleMotorcycle, IMotorVehicle{
 
 
+
+    @Override
+    public void configureMotorcycle(String color, String year, double engine) {
+
+    }
+
     @Override
     public void startVehicle() {
 
@@ -8,11 +14,6 @@ public class Motorcycle implements IVehicle, IVehicleMotorcycle, IMotorVehicle{
 
     @Override
     public void kmPerLitre() {
-
-    }
-
-    @Override
-    public void configureMotorcycle(String color, String year, double engine) {
 
     }
 }
