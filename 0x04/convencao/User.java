@@ -6,13 +6,14 @@ class UsersModels {
     
     String Descricao;
     
-    final static int IDADEMINIMA = 18;
+    final static int IDADE_MINIMA = 18;
     
  
     
     // função que coleta todos os users
     
     public AllUsers() {return [];}
+    
   
     
     }
