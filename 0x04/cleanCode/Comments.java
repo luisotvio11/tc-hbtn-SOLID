@@ -6,7 +6,7 @@
     public Owner getTestcaseOwner(Testcase testcase){}; 
 
 
-    // returns hours in month
+   
     public Hours getHoursInQuarter(){}; 
 
 
