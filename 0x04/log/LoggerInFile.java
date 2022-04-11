@@ -1,3 +1,4 @@
+package log.file;
 
 import java.io.IOException;
 
@@ -11,9 +12,9 @@ public class LoggerInFile {
 
 public static void main(String[] args) {
 
-private static final Logger logger = Logger.getLogger("MyLog");
+private static Logger logger = Logger.getLogger("MyLog");
 
-fileHandler = new FileHandler("logs.txt");
+FileHandler fileHandler = new FileHandler("logs.txt");
 
 Logger.AddHandler(fileHandler);
 
