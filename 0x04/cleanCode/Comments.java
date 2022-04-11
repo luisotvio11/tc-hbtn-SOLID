@@ -2,7 +2,6 @@
     // Released under the terms of the GNU General Public License version 2 or later.
 
 
-    // this method delivers owner of testcase
     public Owner getTestcaseOwner(Testcase testcase){}; 
 
 
